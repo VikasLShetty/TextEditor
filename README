@@ -1,0 +1,4 @@
+A text editor coded in C using GTK+ library. 
+
+To execute run the following command in the project directory:
+gcc -o texteditor texteditor.c -export-dynamic `pkg-config --cflags --libs gtk+-2.0`
